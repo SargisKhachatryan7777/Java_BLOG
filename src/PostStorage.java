@@ -1,4 +1,5 @@
-package blog;
+import blog.Post;
+import blog.PostNotFoundException;
 
 public interface PostStorage {
     int EXIT = 0;

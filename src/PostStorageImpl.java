@@ -1,4 +1,6 @@
-package blog;
+import blog.Post;
+import blog.PostNotFoundException;
+import blog.PostStorage;
 
 public class PostStorageImpl implements PostStorage {
     private Post[] posts = new Post[10];

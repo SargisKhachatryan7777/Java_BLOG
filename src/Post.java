@@ -1,6 +1,3 @@
-package blog;
-
-
 import java.util.Date;
 import java.util.Objects;
 
@@ -56,7 +53,7 @@ public class Post {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Post post = (Post) o;
+        blog.Post post = (blog.Post) o;
         return Objects.equals(title, post.title) &&
                 Objects.equals(text, post.text) &&
                 Objects.equals(category, post.category) &&

@@ -1,7 +1,10 @@
-package blog;
+import blog.Post;
+import blog.PostNotFoundException;
+import blog.PostStorageImpl;
 
 import java.util.Date;
 import java.util.Scanner;
+
 import static blog.PostStorage.*;
 
 public class PostMain {
